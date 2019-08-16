@@ -39,7 +39,7 @@ public class App {
     public static void jedisPoolTest() {
         Jedis jedis = JedisUtils.getJedis();
         System.out.println(jedis.get("age"));
+        System.out.println("hha");
         JedisUtils.closeJedis(jedis);
-
     }
 }
